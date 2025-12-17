@@ -1,5 +1,6 @@
 from typing import List, Dict
 from src.core.schemas import Quiz, Question
+from typing import Any
 
 def grade_quiz(quiz: Quiz, user_answers: Dict[str, str]) -> Dict[str, Any]:
     """
